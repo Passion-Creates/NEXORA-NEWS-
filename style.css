@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    color: #689D4B;
+}
+
+header{
+    margin: 0px;
+}
+
+.name1{
+    color: aqua;
+}
+
+
+.name{
+    color: #133458;
+}
+
+@media(max-width:1280px){
+    .down{
+        margin-left: 15px;
+        color: black;
+        font-size: 1.5em;
+        text-decoration: none;
+
+        
+    }
+    header{
+        text-align: center;
+        position: fixed;
+        border: #689D4B 2px solid;
+        width: 100%;
+        background-color: #A2AB73;
+    }
+}
+
+@media(min-width:650px){
+    .down{
+        margin-left: 2px;
+        color: black;
+        font-size: 1em;
+    } 
+
+    .header{
+        width: 100%;
+        background-color: beige;
+    }
+
+
+}
+
+
+
+.foreign-page {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.foreign-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.foreign-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.foreign-header p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.main-news {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.main-news img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.news-content h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.news-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.news-content small {
+    color: #777;
+}
+
+.latest-news {
+    margin-top: 25px;
+}
+
+.latest-news h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+.latest-news p {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+.aviation-page {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.aviation-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.aviation-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.aviation-header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.main-aviation {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.main-aviation img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.aviation-content h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.aviation-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.aviation-content small {
+    color: #777;
+}
+
+.aviation-latest {
+    margin-top: 25px;
+}
+
+.aviation-latest h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+.aviation-latest p {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+.environment-page {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.environment-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.environment-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.environment-header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.main-environment {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.main-environment img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.environment-content h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.environment-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.environment-content small {
+    color: #777;
+}
+
+.environment-latest {
+    margin-top: 25px;
+}
+
+.environment-latest h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+.environment-latest p {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+.education-page {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.education-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.education-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.education-header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.main-education {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.main-education img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.education-content h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.education-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.education-content small {
+    color: #777;
+}
+
+.education-latest {
+    margin-top: 25px;
+}
+
+.education-latest h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+.education-latest p {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+.crude-page {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.crude-header {
+    border-bottom: 3px solid #111;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.crude-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.crude-header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.main-crude {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.main-crude img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin-right: 25px;
+}
+
+.crude-content h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.crude-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.crude-content small {
+    color: #777;
+}
+
+.crude-latest {
+    margin-top: 25px;
+}
+
+.crude-latest h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+.crude-latest p {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+
+footer{
+    background-color: #111;
+    width: 100%;
+    height: ;
+    color: white;
+}
